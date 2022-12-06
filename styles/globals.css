@@ -7,12 +7,13 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0070f3;
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
 }
 
 @media (prefers-color-scheme: dark) {

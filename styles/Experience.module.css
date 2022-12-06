@@ -1,0 +1,20 @@
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.experience .timePeriod {
+  flex-basis: 12rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-bottom: 0.5rem;
+}
+.experience .description {
+  flex: 1;
+  margin: 0;
+}
+.experience .description h3 {
+  margin: 0;
+  font-size: 1rem;
+}
