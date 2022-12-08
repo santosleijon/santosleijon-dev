@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
 
         <section className={styles.presentation}>
-          <h2>Hello! I'm Santos - a software developer of business systems</h2>
+          <h2>Hello! I&apos;m Santos - a software developer of business systems</h2>
           <Image
             alt="Santos Leijon portrait"
             src={santosLeijonPortrait}
@@ -94,7 +94,7 @@ export default function Home() {
                 <Chip>Visual Studio Code</Chip>
               </li>
               <li>
-                <p>Designed and developed new microservices as part of Verisure's digital transformation from a monolith architecture to microservices hosted in Kubernetes.</p>
+                <p>Designed and developed new microservices as part of Verisure&apos;s digital transformation from a monolith architecture to microservices hosted in Kubernetes.</p>
                 <Chip>Java</Chip>
                 <Chip>Spring Boot</Chip>
                 <Chip>REST</Chip>
@@ -106,7 +106,7 @@ export default function Home() {
                 <Chip>IntelliJ</Chip>
               </li>
               <li>
-                <p>Migrated mutliple organization's ERP data from a muli-tenant on-premise Microsoft Dynamics NAV installation to a global Oracle Fusion Cloud Applications instance.</p>
+                <p>Migrated mutliple organization&apos;s ERP data from a muli-tenant on-premise Microsoft Dynamics NAV installation to a global Oracle Fusion Cloud Applications instance.</p>
                 <Chip>MS SQL Server</Chip>
                 <Chip>SQL Server Management Studio</Chip>
                 <Chip>PowerShell</Chip>
