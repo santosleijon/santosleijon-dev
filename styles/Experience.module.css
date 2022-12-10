@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
 .experience .timePeriod {
@@ -9,6 +11,7 @@
   flex-grow: 0;
   flex-shrink: 0;
   margin-bottom: 0.5rem;
+  font-size: 0.9rem;
 }
 .experience .description {
   flex: 1;

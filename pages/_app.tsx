@@ -16,11 +16,14 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <style jsx global>{`
-        .title, h1, h2, h3 {
+        h2, h3 {
           font-family: ${secularOneFont.style.fontFamily};
         } 
+        body {
+          font-family: ${ibmPlexMonoFont.style.fontFamily};
+        }
       `}</style>
-      <main className={ibmPlexMonoFont.className}>
+      <main>
         <Component {...pageProps} />
       </main>
     </>
