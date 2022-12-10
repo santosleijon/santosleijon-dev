@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Santos Leion - Software developer of business systems</title>
+        <title>Santos Leijon - Software developer of business systems</title>
         <meta name="description" content="Santos Leijon - Software developer of business systems" />
         <link rel="icon" href="/favicon.ico" /> 
       </Head>
