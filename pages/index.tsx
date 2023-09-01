@@ -26,7 +26,7 @@ export default function Home() {
             src={santosLeijonPortrait}
           />
           I am an experienced software developer with a special interest in finance and business systems.
-          Over tha last few years I have worked with both small and large applications, including systems built 25 years ago and brand new applications using the latest web technologies.
+          Over the last few years I have worked with both small and large applications, including systems built 25 years ago and brand new applications using the latest web technologies.
           I have also been a part of technical transformations moving from old to new technology, including breaking up large legacy monolith applications into independent microservices.
           <p>
             <strong>Feel free to contact me:</strong> <a href="https://www.linkedin.com/in/santos-leijon">linkedin.com/in/santos-leijon</a>
