@@ -20,14 +20,17 @@ export default function Home() {
         </h1>
 
         <section className={styles.presentation}>
-          <h2>Hello! I&apos;m Santos - a software developer of business systems</h2>
+          <h2>Hello, I&apos;m Santos!</h2>
           <Image
             alt="Santos Leijon portrait"
             src={santosLeijonPortrait}
           />
-          I am an experienced software developer with a special interest in finance and business systems.
-          Over the last few years I have worked with both small and large applications, including systems built 25 years ago and brand new applications using the latest web technologies.
-          I have also been a part of technical transformations moving from old to new technology, including breaking up large legacy monolith applications into independent microservices.
+          <p>
+            I am a seasoned software developer with a passion for building maintainable and scalable enterprise software.
+          </p>
+          <p>
+          Since 2017 I have worked on a variety of projects, from maintaining old legacy systems to developing brand new web applications using the latest tech stacks. 
+          </p>
           <p>
             <strong>Feel free to contact me:</strong> <a href="https://www.linkedin.com/in/santos-leijon">linkedin.com/in/santos-leijon</a>
           </p>
@@ -38,7 +41,7 @@ export default function Home() {
           <Experience timePeriod="2021-03 - " role="Software Developer" organization="Fortnox AB">
             <ul>
               <li>
-                <p>Developed Fortnox Företagsbrevlåda - a new greenfield project to develop a secure digital mailbox for small businesses used to receive goverment mail, supplier invoices and other business documents.</p>
+                <p>Developed Fortnox Business Mailbox, a new product aimed at small businesses used to receive goverment mail, supplier invoices and other sensitive business documents.</p>
                 <Chip>Kotlin</Chip>
                 <Chip>Java</Chip>
                 <Chip>REST</Chip>
@@ -56,7 +59,7 @@ export default function Home() {
                 <Chip>IntelliJ</Chip>
               </li>
               <li>
-                <p>Maintained Fortnox Arkivplats - a core legacy product used by more than 400 000 Fortnox customers to receive, process and archive business documents such as invoices and receipts.</p>
+                <p>Maintained Fortnox Document Archive, a core legacy product used by more than 400 000 Fortnox customers to receive, process and archive business documents such as invoices and receipts.</p>
                 <Chip>PHP</Chip>
                 <Chip>PostgreSQL</Chip>
                 <Chip>JavaScript</Chip>
@@ -72,7 +75,7 @@ export default function Home() {
           <Experience timePeriod="2018-02 - 2021-03" role="Backend Developer" organization="Verisure Innovation AB">
             <ul>
               <li>
-                <p>Lead the maintenance and development of an integration service and associated web application used to deliver invoices and direct debit payment files for more than 1 000 000 customers to banks and distributors across Europe.</p>
+                <p>Lead the development of an integration service used to deliver invoices and direct debit payment files for more than 1 000 000 customers to banks and mail distributors across Europe.</p>
                 <Chip>Java</Chip>
                 <Chip>Spring</Chip>
                 <Chip>JBoss / Wildfly</Chip>
@@ -94,7 +97,7 @@ export default function Home() {
                 <Chip>Visual Studio Code</Chip>
               </li>
               <li>
-                <p>Designed and developed new microservices as part of Verisure&apos;s digital transformation from a monolith architecture to microservices hosted in Kubernetes.</p>
+                <p>Designed and developed new microservices as part of Verisure's technical transformation from a monolith architecture to microservices hosted in Kubernetes.</p>
                 <Chip>Java</Chip>
                 <Chip>Spring Boot</Chip>
                 <Chip>REST</Chip>
@@ -125,7 +128,7 @@ export default function Home() {
                 <Chip>Visual Studio</Chip>
               </li>
               <li>
-                <p>Developed an email marketing tool used to manage prospects, creating email campaigns, writing emails in an WYSIWYG editior and collecting responses from prospects.</p>
+                <p>Developed an email marketing tool for managing email campaigns, writing marketing emails and managing marketing segments.</p>
                 <Chip>PHP</Chip>
                 <Chip>Laravel</Chip>
                 <Chip>REST</Chip>
