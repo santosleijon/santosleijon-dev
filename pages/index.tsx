@@ -97,7 +97,7 @@ export default function Home() {
                 <Chip>Visual Studio Code</Chip>
               </li>
               <li>
-                <p>Designed and developed new microservices as part of Verisure's technical transformation from a monolith architecture to microservices hosted in Kubernetes.</p>
+                <p>Designed and developed new microservices as part of Verisure&apos;s technical transformation from a monolith architecture to microservices hosted in Kubernetes.</p>
                 <Chip>Java</Chip>
                 <Chip>Spring Boot</Chip>
                 <Chip>REST</Chip>
