@@ -38,3 +38,6 @@ next-env.d.ts
 # custom deployment scripts
 /scripts/deploy*
 /scripts/certbot/
+
+# IntelliJ IDEA project files
+.idea
