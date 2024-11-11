@@ -26,7 +26,7 @@ export default function Home() {
             src={santosLeijonPortrait}
           />
           <p>
-            I'm an experienced software developer with a passion for maintainable and scalable enterprise software.
+            I&apos;m an experienced software developer with a passion for maintainable and scalable enterprise software.
           </p>
           <p>
             I have worked on a broad range of projects since becoming a professional in 2017, from maintaining old legacy systems to developing brand new web applications using the latest tech stacks.
@@ -130,7 +130,7 @@ export default function Home() {
                 <Chip>IntelliJ</Chip>
               </li>
               <li>
-                <p>Migrated mutliple organization&apos;s ERP data from a muli-tenant on-premise Microsoft Dynamics NAV installation to a global Oracle Fusion Cloud Applications instance.</p>
+                <p>Migrated mutliple organization&apos;s ERP data from a multi-tenant on-premise Microsoft Dynamics NAV installation to a global Oracle Fusion Cloud Applications instance.</p>
                 <Chip>MS SQL Server</Chip>
                 <Chip>SQL Server Management Studio</Chip>
                 <Chip>PowerShell</Chip>
@@ -163,7 +163,7 @@ export default function Home() {
           <Experience timePeriod="2013-02 - 2016-07" role="Founder & Web Developer (part time)" organization="SNTS Media">
             <ul>
               <li>
-                <p>Created and managed affiliate marketing websites recieving over 1 000 000 visitors and generating over 94,000 leads for advertisers.</p>
+                <p>Created and managed affiliate marketing websites receiving over 1 000 000 visitors and generating over 94,000 leads for advertisers.</p>
                 <Chip>Wordpress</Chip>
                 <Chip>PHP</Chip>
                 <Chip>MySQL</Chip>
@@ -185,7 +185,7 @@ export default function Home() {
           <Experience timePeriod="2023" role="Voidium Market">
             <>
               <p>
-                An event sourced and event driven experimental marketplace application for the fictional natural resource "voidium".
+                An event sourced and event driven experimental marketplace application for the fictional natural resource &qout;voidium&qout;.
                 Created for fun, not for actual use.
               </p>
               <p>
