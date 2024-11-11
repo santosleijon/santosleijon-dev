@@ -185,7 +185,7 @@ export default function Home() {
           <Experience timePeriod="2023" role="Voidium Market">
             <>
               <p>
-                An event sourced and event driven experimental marketplace application for the fictional natural resource &qout;voidium&qout;.
+                An event sourced and event driven experimental marketplace application for the fictional natural resource &quot;voidium&quot;.
                 Created for fun, not for actual use.
               </p>
               <p>
