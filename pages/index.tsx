@@ -26,10 +26,10 @@ export default function Home() {
             src={santosLeijonPortrait}
           />
           <p>
-            I am a seasoned software developer with a passion for building maintainable and scalable enterprise software.
+            I'm an experienced software developer with a passion for maintainable and scalable enterprise software.
           </p>
           <p>
-          Since 2017 I have worked on a variety of projects, from maintaining old legacy systems to developing brand new web applications using the latest tech stacks. 
+            I have worked on a broad range of projects since becoming a professional in 2017, from maintaining old legacy systems to developing brand new web applications using the latest tech stacks.
           </p>
           <p>
             <strong>Feel free to contact me:</strong> <a href="https://www.linkedin.com/in/santos-leijon">linkedin.com/in/santos-leijon</a>
@@ -38,10 +38,31 @@ export default function Home() {
 
         <section>
           <h2>Professional experience</h2>
-          <Experience timePeriod="2021-03 - " role="Software Developer" organization="Fortnox AB">
+          <Experience timePeriod="2024-01 - " role="Software Developer" organization="Ida Infront AB">
             <ul>
               <li>
-                <p>Developed Fortnox Business Mailbox, a new product aimed at small businesses used to receive goverment mail, supplier invoices and other sensitive business documents.</p>
+                <p>Maintained and developed a <em>Laboratory Information Management System</em> (LIMS) for a Swedish government authority as a part of an application modernization program.</p>
+                <Chip>Java</Chip>
+                <Chip>J2EE/Jakarta EE</Chip>
+                <Chip>JBoss</Chip>
+                <Chip>MySQL</Chip>
+                <Chip>Apache Wicket</Chip>
+                <Chip>JavaScript</Chip>
+                <Chip>REST</Chip>
+                <Chip>SOAP</Chip>
+                <Chip>OpenAPI Specification</Chip>
+                <Chip>IntelliJ</Chip>
+                <Chip>Message brokers</Chip>
+                <Chip>Workflow engines</Chip>
+                <Chip>Case management</Chip>
+              </li>
+            </ul>
+          </Experience>
+
+          <Experience timePeriod="2021-03 - 2024-01" role="Software Developer" organization="Fortnox AB">
+            <ul>
+              <li>
+                <p>Developed Fortnox Business Mailbox, a new product aimed at small businesses used to receive government mail, supplier invoices and other sensitive business documents.</p>
                 <Chip>Kotlin</Chip>
                 <Chip>Java</Chip>
                 <Chip>REST</Chip>
@@ -161,11 +182,31 @@ export default function Home() {
 
         <section>
           <h2>Personal projects</h2>
+          <Experience timePeriod="2023" role="Voidium Market">
+            <>
+              <p>
+                An event sourced and event driven experimental marketplace application for the fictional natural resource "voidium".
+                Created for fun, not for actual use.
+              </p>
+              <p>
+                <a href="https://github.com/santosleijon/voidium-market"><strong>github.com/santosleijon/voidium-market</strong></a>
+              </p>
+              <Chip>Java</Chip>
+              <Chip>Spring Boot</Chip>
+              <Chip>Apache Kafka</Chip>
+              <Chip>PostgreSQL</Chip>
+              <Chip>Thymeleaf</Chip>
+              <Chip>Pure CSS</Chip>
+              <Chip>REST</Chip>
+              <Chip>Docker</Chip>
+            </>
+          </Experience>
           <Experience timePeriod="2022" role="Frugal Fennec Expense Manager">
             <>
               <p>
-                A single page web application for tracking expenses. 
+                An experimental single page web application for tracking expenses.
                 It allows users to record expenses in a customizable accounts structure, view expense reports and login without a password using email verification.
+                Created for fun, not for actual use.
               </p>
               <p>
                 <a href="https://github.com/santosleijon/frugal-fennec-expense-manager"><strong>github.com/santosleijon/frugal-fennec-expense-manager</strong></a>
