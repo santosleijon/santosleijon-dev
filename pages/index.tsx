@@ -41,7 +41,7 @@ export default function Home() {
           <Experience timePeriod="2024-01 - " role="Software Developer" organization="Ida Infront AB">
             <ul>
               <li>
-                <p>Maintained and developed a <em>Laboratory Information Management System</em> (LIMS) for a Swedish government authority as a part of an application modernization program.</p>
+                <p>Maintained and developed a LIMS (<em>Laboratory Information Management System</em>) for a Swedish government authority. This includes building new integrations, web UI:s, and implementing containerization as a part of an application modernization program.</p>
                 <Chip>Java</Chip>
                 <Chip>J2EE/Jakarta EE</Chip>
                 <Chip>JBoss</Chip>
@@ -50,11 +50,24 @@ export default function Home() {
                 <Chip>JavaScript</Chip>
                 <Chip>REST</Chip>
                 <Chip>SOAP</Chip>
-                <Chip>OpenAPI Specification</Chip>
+                <Chip>OpenAPI Specifications</Chip>
+                <Chip>Docker/OCI containers</Chip>
+                <Chip>Kubernetes</Chip>
                 <Chip>IntelliJ</Chip>
                 <Chip>Message brokers</Chip>
                 <Chip>Workflow engines</Chip>
                 <Chip>Case management</Chip>
+              </li>
+              <li>
+                <p>Developed a new microservice for report document generation. The service was integrated with multiple libraries and backends for generating documents in Word, Excel and PDF formats.</p>
+                <Chip>Java</Chip>
+                <Chip>Spring Boot</Chip>
+                <Chip>REST</Chip>
+                <Chip>XML</Chip>
+                <Chip>OpenAPI Specifications</Chip>
+                <Chip>Docker/OCI containers</Chip>
+                <Chip>Kubernetes</Chip>
+                <Chip>OpenShift</Chip>
               </li>
             </ul>
           </Experience>
