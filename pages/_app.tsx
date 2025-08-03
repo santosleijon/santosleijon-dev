@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import { IBM_Plex_Mono, Secular_One } from '@next/font/google'
+import { IBM_Plex_Mono, Secular_One } from "next/font/google"
 
 const secularOneFont = Secular_One({
   weight: '400',

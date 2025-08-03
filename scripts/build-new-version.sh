@@ -13,8 +13,8 @@ IMAGE="santosleijon/santosleijon-dev:$NEW_VERSION"
 IMAGE_LATEST="santosleijon/santosleijon-dev:latest"
 
 printf "\n\nBuilding docker image '%s':\n" $IMAGE
-docker build -t "$IMAGE" -t "$IMAGE_LATEST" ../
+podman build -t "$IMAGE" -t "$IMAGE_LATEST" ../
 
 printf "\n\nPushing docker image '%s' to registry:\n" $IMAGE
-docker push "$IMAGE"
-docker push "$IMAGE_LATEST"
+podman push "$IMAGE"
+podman push "$IMAGE_LATEST"

@@ -1,6 +1,6 @@
-docker run -it \
+podman run -it \
   --name santosleijon-dev \
-  --env PORT=80 \
-  -p 80:80 \
+  --env PORT=3000 \
+  -p 3000:3000 \
   --rm \
   santosleijon/santosleijon-dev:latest
