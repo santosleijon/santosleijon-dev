@@ -195,11 +195,33 @@ export default function Home() {
 
         <section>
           <h2>Personal projects</h2>
+          <Experience timePeriod="2025" role="Daily Noter">
+            <>
+              <p>
+                A web application for writing daily notes as fast and easy as possible.
+                Created for fun, not for production use.
+              </p>
+              <p>
+                <a href="https://github.com/santosleijon/daily-noter"><strong>github.com/santosleijon/daily-noter</strong></a>
+              </p>
+              <Chip>Java</Chip>
+              <Chip>Javalin</Chip>
+              <Chip>Spring Boot</Chip>
+              <Chip>PostgreSQL</Chip>
+              <Chip>TypeScript</Chip>
+              <Chip>React</Chip>
+              <Chip>Vite</Chip>
+              <Chip>Tailwind</Chip>
+              <Chip>NGINX</Chip>
+              <Chip>Docker/OCI containers</Chip>
+              <Chip>Podman</Chip>
+            </>
+          </Experience>
           <Experience timePeriod="2023" role="Voidium Market">
             <>
               <p>
                 An event sourced and event driven experimental marketplace application for the fictional natural resource &quot;voidium&quot;.
-                Created for fun, not for actual use.
+                Created for fun, not for production use.
               </p>
               <p>
                 <a href="https://github.com/santosleijon/voidium-market"><strong>github.com/santosleijon/voidium-market</strong></a>
@@ -219,7 +241,7 @@ export default function Home() {
               <p>
                 An experimental single page web application for tracking expenses.
                 It allows users to record expenses in a customizable accounts structure, view expense reports and login without a password using email verification.
-                Created for fun, not for actual use.
+                Created for fun, not for production use.
               </p>
               <p>
                 <a href="https://github.com/santosleijon/frugal-fennec-expense-manager"><strong>github.com/santosleijon/frugal-fennec-expense-manager</strong></a>
