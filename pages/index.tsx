@@ -41,7 +41,7 @@ export default function Home() {
           <Experience timePeriod="2024-01 - " role="Software Developer" organization="Ida Infront AB">
             <ul>
               <li>
-                <p>Maintained and developed a LIMS (<em>Laboratory Information Management System</em>) for a Swedish government authority. This includes building new integrations, web UI:s, and implementing containerization as a part of an application modernization program.</p>
+                <p>Maintained and developed a LIMS (<em>Laboratory Information Management System</em>) for a Swedish government agency. This includes building new integrations, web UI:s, and implementing containerization as a part of an application modernization program.</p>
                 <Chip>Java</Chip>
                 <Chip>J2EE/Jakarta EE</Chip>
                 <Chip>JBoss</Chip>
